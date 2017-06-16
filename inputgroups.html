@@ -1,0 +1,58 @@
+<!<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boot Strap templates</title>
+	<script src="./bundle.js"></script>
+</head>
+
+<body>
+	<div class="row">
+		<label for="" class="col-sm-3 col-md-3 col-lg-2">Select Input</label>
+		<div class="col-sm-6 col-md-5 col-lg-5">
+			<div class="input-group">
+				<span class="input-group-addon">
+                <input type="radio" name="SelectInputType" value="YieldStress">
+            </span>
+				<span class="input-group-addon">Yield Stress</span>
+				<input type="number" name="" value="" class="form-control">
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">
+                <input type="radio" name="SelectInputType" value="ProofStrain">
+            </span>
+				<span class="input-group-addon">Proof Strain</span>
+				<input type="number" name="" value="" class="form-control">
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-2">
+			<label for="">Radio Inputs _ 2 Column</label>
+		</div>
+		<div class="col-sm-6 col-md-5 col-lg-5">
+			<div class="input-group">
+				<span class="input-group-addon">
+					<input name="VML_InputCurveType" value="FDCurve" checked="" type="radio">
+				</span>
+				<span class="form-control">Force - Displacement</span>
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<input name="VML_InputCurveType" value="NominalStressStrainCurve" type="radio">
+				</span>
+				<span class="form-control">Nominal Stress - Engineering Strain</span>
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<input name="VML_InputCurveType" value="TrueStressStrainCurve" type="radio">
+				</span>
+				<span class="form-control">True Stress - Logarithamic Strain</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
