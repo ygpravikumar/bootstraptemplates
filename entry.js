@@ -1,6 +1,6 @@
 require("./css/bootstrap.css")
 require("./css/styles.css")
-require("./js/jquery-3.1.1.js")
+require("./js/jquery-3.2.1.min.js")
 require("./js/bootstrap.js")
 require('./index.html')
 require('./inputgroups.html')
