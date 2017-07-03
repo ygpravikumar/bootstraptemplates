@@ -20,7 +20,7 @@
      border-color: #222;
  }
 
- .example-area {
+ .example-area, .example {
      background-color: #f1f1f1;
      padding: 0.01em 16px;
      margin: 20px 0;
@@ -48,4 +48,14 @@
     color: #000!important;
     background-color: #fff!important;
     padding: 8px 16px!important;    
+}
+
+.note {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+}
+
+.panel {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
